@@ -1,10 +1,10 @@
 <?php
 
-namespace :uc:vendor\:uc:package\Facades;
+namespace :uc:vendor\:uc:plugin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class :uc:package extends Facade
+class :uc:plugin extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class :uc:package extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return ':lc:package';
+        return ':lc:plugin';
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace :uc:vendor\:uc:package;
+namespace :uc:vendor\:uc:plugin;
 
-class :uc:package
+class :uc:plugin
 {
     // Build wonderful things
 }

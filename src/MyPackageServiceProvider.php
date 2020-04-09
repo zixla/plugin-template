@@ -1,10 +1,10 @@
 <?php
 
-namespace :uc:vendor\:uc:package;
+namespace :uc:vendor\:uc:plugin;
 
 use Illuminate\Support\ServiceProvider;
 
-class :uc:packageServiceProvider extends ServiceProvider
+class :uc:pluginServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -13,8 +13,8 @@ class :uc:packageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-         $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'z-:lc:package');
-         $this->loadViewsFrom(__DIR__.'/../resources/views', 'z-:lc:package');
+         $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'z-:lc:plugin');
+         $this->loadViewsFrom(__DIR__.'/../resources/views', 'z-:lc:plugin');
          $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
          $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
@@ -27,7 +27,7 @@ class :uc:packageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/:lc:package.php', 'z-:lc:package');
+        $this->mergeConfigFrom(__DIR__.'/../config/:lc:plugin.php', 'z-:lc:plugin');
     }
 
     /**
@@ -37,7 +37,7 @@ class :uc:packageServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [':lc:package'];
+        return [':lc:plugin'];
     }
 
 }
