@@ -1,6 +1,6 @@
 {
     "name": ":lc:vendor/:lc:plugin",
-    "description": ":package_description",
+    "description": ":plugin_description",
     "license": ":license",
     "authors": [
         {

@@ -21,13 +21,13 @@ class :uc:pluginServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register any package services.
+     * Register any plugin services.
      *
      * @return void
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/:lc:plugin.php', 'z-:lc:plugin');
+        $this->mergeConfigFrom(__DIR__.'/../config/z-:lc:plugin.php', 'z-:lc:plugin');
     }
 
     /**

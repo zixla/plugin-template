@@ -26,11 +26,11 @@ abstract class TestbenchTestCase extends Testbench
     }
 
     /**
-     * Tell Testbench to use this package.
+     * Tell Testbench to use this plugin.
      * @param $app
      * @return array
      */
-    protected function getPackageProviders($app)
+    protected function getPluginProviders($app)
     {
         return [':uc:vendor\:uc:plugin\:uc:pluginServiceProvider'];
     }
