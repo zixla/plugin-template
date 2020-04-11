@@ -42,7 +42,7 @@ If you discover any security related issues, please email :author_email instead 
 
 ## License
 
-:license. Please see the [license file](license.md) for more information.
+:license. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/:lc:vendor/:lc:plugin.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/:lc:vendor/:lc:plugin.svg?style=flat-square
