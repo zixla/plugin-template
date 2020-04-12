@@ -13,9 +13,9 @@ class :uc:pluginServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-         $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'z-:lc:plugin');
-         $this->loadViewsFrom(__DIR__.'/../resources/views', 'z-:lc:plugin');
-         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+         $this->loadTranslationsFrom(__DIR__.'/../../resources/lang', 'z-:lc:plugin');
+         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'z-:lc:plugin');
+         $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
 
     }
 
@@ -26,7 +26,7 @@ class :uc:pluginServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/z-:lc:plugin.php', 'z-:lc:plugin');
+        $this->mergeConfigFrom(__DIR__.'/../../config/z-:lc:plugin.php', 'z-:lc:plugin');
 
         $this->app->register(RouteServiceProvider::class);
         $this->app->register(EventServiceProvider::class);

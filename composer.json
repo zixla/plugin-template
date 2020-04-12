@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                ":uc:vendor\\:uc:plugin\\:uc:pluginServiceProvider"
+                ":uc:vendor\\:uc:plugin\\Providers\\:uc:pluginServiceProvider"
             ],
             "aliases": {
                 ":uc:plugin": ":uc:vendor\\:uc:plugin\\Facades\\:uc:plugin"
