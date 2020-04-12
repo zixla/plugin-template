@@ -5,5 +5,5 @@ return [
     'src/MyPlugin.php' => 'src/:uc:plugin.php',
     'config/myplugin.php' => 'config/:lc:plugin.php',
     'src/Facades/MyPlugin.php' => 'src/Facades/:uc:plugin.php',
-    'src/MyPluginServiceProvider.php' => 'src/:uc:pluginServiceProvider.php',
+    'src/Providers/MyPluginServiceProvider.php' => 'src/Providers/:uc:pluginServiceProvider.php',
 ];
